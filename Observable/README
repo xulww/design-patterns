@@ -1,0 +1,7 @@
+The observer pattern has two types of objects - observable and observers.
+
+Observable - the object/value that is changing
+Observers - keeping track if there are changes in the objects its connected to
+
+Usually the relationship between the objects in the observer pattern is one to many
+because it has one object who is changing and notifying the rest of the objects.
