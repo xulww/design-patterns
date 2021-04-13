@@ -3,5 +3,5 @@ class Observer:
     def update(self):
         pass
 
-    def setTopic(self, topic):
+    def set_topic(self, topic):
         pass

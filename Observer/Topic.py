@@ -7,18 +7,18 @@ class Topic(Observable):
 
     def subscribe(self, observer):
         self._subscribers.append(observer)
-        observer.setTopic(self)
+        observer.set_topic(self)
 
     def unsubscribe(self, observer):
         self._subscribers.remove(observer)
 
-    def notifyObservers(self):
+    def notify_observers(self):
         for subscriber in self._subscribers:
             subscriber.update()
 
-    def setTopic(self, topic):
+    def set_topic(self, topic):
         self._topic = topic
-        self.notifyObservers()
+        self.notify_observers()
 
-    def getUpdate(self):
+    def get_update(self):
         return self._topic

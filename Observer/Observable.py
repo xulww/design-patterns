@@ -6,8 +6,8 @@ class Observable:
     def unsubscribe(self, observers):
         pass
 
-    def notifyObservers(self):
+    def notify_observers(self):
         pass
 
-    def getUpdate(self):
+    def get_update(self):
         pass

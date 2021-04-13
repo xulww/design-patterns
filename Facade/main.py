@@ -4,9 +4,9 @@ from ShapeFacade import ShapeFacade
 def main():
     shape_facade = ShapeFacade()
 
-    shape_facade.drawCircle()
-    shape_facade.drawSquare()
-    shape_facade.drawTriangle()
+    shape_facade.draw_circle()
+    shape_facade.draw_square()
+    shape_facade.draw_triangle()
 
 
 if __name__ == "__main__":

@@ -15,7 +15,7 @@ class ShapeFacade:
 
     # let's say the task is to create an easy interface to draw shapes
 
-    def drawCircle(self):
+    def draw_circle(self):
         # TODO drawing circle complexity goes here
         # step 1 (ex. get pen)
         # step 2 (ex. go to whiteboard)
@@ -24,7 +24,7 @@ class ShapeFacade:
 
         self._circle.draw()
 
-    def drawSquare(self):
+    def draw_square(self):
         # TODO drawing square complexity goes here
         # step 1
         # step 2
@@ -33,7 +33,7 @@ class ShapeFacade:
 
         self._square.draw()
 
-    def drawTriangle(self):
+    def draw_triangle(self):
         # TODO drawing triangle complexity goes here
         # step 1
         # step 2

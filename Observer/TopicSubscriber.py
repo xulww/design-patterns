@@ -3,21 +3,21 @@ from Observer import Observer
 
 class TopicSubscriber(Observer):
     _name = ""
-    _subscribedTo = []
+    _subscribed_to = []
 
     def __init__(self, name):
         self._name = name
 
     def update(self):
-        if self._subscribedTo == None:
-            print(self.getName() + " has no topic")
+        if self._subscribed_to == None:
+            print(self.get_name() + " has no topic")
             return
 
-        newTopic = self._subscribedTo.getUpdate()
-        print(self.getName() + " received an update: " + newTopic)
+        new_topic = self._subscribed_to.get_update()
+        print(self.get_name() + " received an update: " + new_topic)
 
-    def setTopic(self, topic):
-        self._subscribedTo = topic
+    def set_topic(self, topic):
+        self._subscribed_to = topic
 
-    def getName(self):
+    def get_name(self):
         return self._name

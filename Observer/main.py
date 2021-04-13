@@ -6,15 +6,15 @@ from TopicSubscriber import TopicSubscriber
 def main():
     topic = Topic()
 
-    observerOne = TopicSubscriber("Topic subscriber 1")
-    observerTwo = TopicSubscriber("Topic subscriber 2")
-    observerThree = TopicSubscriber("Topic subscriber 3")
+    observer_one = TopicSubscriber("Topic subscriber 1")
+    observer_two = TopicSubscriber("Topic subscriber 2")
+    observer_three = TopicSubscriber("Topic subscriber 3")
 
-    topic.subscribe(observerOne)
-    topic.subscribe(observerTwo)
-    topic.subscribe(observerThree)
+    topic.subscribe(observer_one)
+    topic.subscribe(observer_two)
+    topic.subscribe(observer_three)
 
-    topic.setTopic("Programming is fun!")
+    topic.set_topic("Programming is fun!")
 
 
 if __name__ == "__main__":
