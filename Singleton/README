@@ -1,0 +1,3 @@
+In order to guarantee that an object has only one instance in the life cycle of a program.
+
+Often associated with data base connection.
