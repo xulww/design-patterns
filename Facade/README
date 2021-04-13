@@ -1,2 +1,2 @@
-To create some kind of logic sometimes you need to take a number of successive steps. This whole logic 
-can be made into a facade which will help us hide the complexity of the initialization.
+To create some kind of program/logic, sometimes you need to take a number of successive steps. 
+This whole logic can be outsourced into a facade which will help us hide the complexity of these steps.
