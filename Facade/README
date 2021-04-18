@@ -1,3 +1,5 @@
 To create some kind of program/logic, sometimes you need to take a number of successive steps. 
 In order to hide their complexity, they can be outsourced into a facade - a special class which
 helps you implement an easy interface for a certain task.
+
+The facade provides an unified interface in a given subsystem.
