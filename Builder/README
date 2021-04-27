@@ -1,0 +1,8 @@
+When initializing an object requires A LOT OF parameters, some of them might be optional, in this case
+you would have to create a logic where the code knows what should happen if a certain parameter is 
+missing. This means you will have to write A LOT OF code.
+
+The builder pattern is a solution to this problem. It simplifies the initialization of an object which
+takes a lot of parameters and it lets you choose which should be present, no matter their order.
+
+For example, Mongoose uses this pattern in its query builder
