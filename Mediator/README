@@ -1,0 +1,9 @@
+Sometimes you need to have a connection between different types of objects. These objects are connected, they
+communicate with each other, and their count gets bigger with time. At some point, if you want to add a new
+functionality to an object, you will have to change the rest of the objects too because they are interconnected.
+
+In order of the objects to not be directly connected between each other but to go through an extra layer, which
+takes care of this connection, you need a mediator.
+
+This way the refactoring of the objects is going to be easier and also if you have to change something with the
+communication, you know where to do it.
