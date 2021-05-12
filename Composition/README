@@ -1,1 +1,3 @@
 Used when we have to create a hierarchy or a tree structure.
+
+It allows clients to treat equally individual objects and compositions of objects.
