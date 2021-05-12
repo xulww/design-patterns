@@ -1,0 +1,7 @@
+The idea of the command pattern is to observe the sequence of actions that have been done on
+a certain object. This way you can go forward or back an action.
+
+There are 3 types of participants - receiver (the command target), invoker (the command executer)
+and command (the task).
+
+In this example the lights are the receiver and the remote is the invoker.
