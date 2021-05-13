@@ -1,0 +1,4 @@
+Lets say you have base classes which have properties and methods. At some point in time you
+have to add new logic that is related to some sort of calculations or extracting data from
+the class you are working with. In order of this logic not to accumulate in each class we
+can use the visitor pattern which carries it out in a separate class.
