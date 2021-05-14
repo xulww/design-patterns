@@ -1,0 +1,8 @@
+A factory takes care of object initialization. The idea of this pattern is to easily
+manage new instances without initializing them in the first place.
+
+Usually we categorize the objects and after that we create a separate factory for
+each category.
+
+If the factories are too many, we can create a special producer class which will
+construct factories.
