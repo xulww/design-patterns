@@ -1,9 +1,10 @@
-from Circle import Circle
-from Square import Square
-from Triangle import Triangle
+from circle import Circle
+from square import Square
+from triangle import Triangle
 
 
 class ShapeFacade:
+
     _circle = None
     _square = None
     _triangle = None

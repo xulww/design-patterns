@@ -2,6 +2,7 @@ from employee import Employee
 
 
 class Developer(Employee):
+
     _name = None
     _salary = None
 

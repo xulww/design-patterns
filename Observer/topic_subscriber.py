@@ -1,7 +1,8 @@
-from Observer import Observer
+from observer import Observer
 
 
 class TopicSubscriber(Observer):
+
     _name = ""
     _subscribed_to = []
 

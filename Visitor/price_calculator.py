@@ -4,6 +4,7 @@ from book import Book
 
 
 class PriceCalculator(ShoppingCartVisitor):
+
     def visit(self, obj):
         price = None
 

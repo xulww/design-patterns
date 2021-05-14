@@ -1,4 +1,5 @@
 class Cake:
+
     _SUGAR = None
     _EGGS = None
     _COCOA = None
@@ -6,6 +7,7 @@ class Cake:
     _MILK = None
 
     class Builder:
+
         _sugar = None
         _eggs = None
         _cocoa = None

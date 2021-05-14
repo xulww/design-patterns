@@ -1,7 +1,8 @@
-from Observable import Observable
+from observable import Observable
 
 
 class Topic(Observable):
+
     _subscribers = []
     _topic = ""
 

@@ -1,4 +1,5 @@
 class ShoppingCartVisitor:
+
     def visit(self, book):
         pass
 

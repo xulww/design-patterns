@@ -1,4 +1,4 @@
-from ShapeFacade import ShapeFacade
+from shape_facade import ShapeFacade
 
 
 def main():

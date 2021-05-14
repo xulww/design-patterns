@@ -2,6 +2,7 @@ from command import Command
 
 
 class LightsOffCommand(Command):
+
     _lights = None
 
     def __init__(self, lights):

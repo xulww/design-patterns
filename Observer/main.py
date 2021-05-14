@@ -1,6 +1,6 @@
-from Topic import Topic
-from Observer import Observer
-from TopicSubscriber import TopicSubscriber
+from topic import Topic
+from observer import Observer
+from topic_subscriber import TopicSubscriber
 
 
 def main():

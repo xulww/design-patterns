@@ -1,4 +1,5 @@
 class Employee:
+
     def add(self, employee):
         pass
 

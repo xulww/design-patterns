@@ -1,4 +1,5 @@
 class Lights:
+
     _lights_on = False
 
     def switch_on(self):
