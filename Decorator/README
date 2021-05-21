@@ -1,1 +1,3 @@
 Adds extra functionality to base classes without changing them.
+
+This functionality can be the same for different classes.
