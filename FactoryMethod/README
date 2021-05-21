@@ -1,0 +1,2 @@
+The difference between the abstract factory pattern and the factory method pattern is
+that in the latter there is a method which takes care of the creation of the objects.
