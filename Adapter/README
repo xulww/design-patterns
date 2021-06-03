@@ -1,0 +1,5 @@
+The adapter pattern is used when there are 2 different interfaces and we want to
+equalize them.
+
+For this purpose we have to create a special adapter class whom aim is to do just that.
+It will allow us to call methods in a similar way.
