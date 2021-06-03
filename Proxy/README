@@ -1,0 +1,4 @@
+Let's say we have a base class whose initialization has to be restricted.
+In this case we will have to wrap this class with another class. This 
+wrapper class will be deciding who can and can't instantiate it.
+This is the idea of the proxy pattern.
