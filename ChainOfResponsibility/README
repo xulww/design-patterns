@@ -1,8 +1,8 @@
 In this pattern there are objects who are lined up one after another. Each of them knows the one
-that's after him. This type of chaining means that its enough to have information about
+that's after them. This type of chaining means that it's enough to have information about
 the first object only because the second knows about the first, the third about the second and so
 on. This implies that we have access to the whole chain through only one object - the first one.
-Usually a message or some data is sent through the foremost one and its expected one of the 
+Usually a message or some data is sent through the foremost one and it's expected one of the 
 objects in the chain to process/handle it.
 
 In theory each object in the chain can handle the message as long as, for example, some condition is 
